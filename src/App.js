@@ -3,11 +3,13 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import Illustration from '../assets/android-icon-foreground.png'
 import { Login } from './screens/Login';
 import { Cadastro } from './screens/Cadastro';
+import { Produtos } from './screens/Produtos';
 
 export default function App() {
   return (
     <SafeAreaView>
-      <Cadastro/>     
+      {/*<Produtos/>}    
+       
     </SafeAreaView>
   );
 }
